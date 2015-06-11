@@ -1,35 +1,60 @@
+/* global angular, $cordovaVibration */
+
+    
 angular.module('starter.controllers', [])
 
-.controller('SaunavihtaCtrl', function($scope) {})
-
-.controller('LoylyCtrl', function($scope) {})
-
-.controller('VirvokeCtrl', function($scope) {});
-
-///.controller('DashCtrl', function($scope) {})
-/*
-.controller('ChatsCtrl', function($scope, Chats) {
-  // With the new view caching in Ionic, Controllers are only called
-  // when they are recreated or on app start, instead of every page change.
-  // To listen for when this page is active (for example, to refresh data),
-  // listen for the $ionicView.enter event:
-  //
-  //$scope.$on('$ionicView.enter', function(e) {
-  //});
-  
-  $scope.chats = Chats.all();
-  $scope.remove = function(chat) {
-    Chats.remove(chat);
-  }
+.controller('SaunavihtaCtrl', function($scope) {
+    //$cordovaVibration.vibrate(2000);
+    /*
+    function playAudio(url) {
+        var media = new Media(url, function () {
+            console.log("playAudio():Audio Success");
+        },
+            function (err) {
+                console.log("playAudio():Audio Error: " + err);
+            }
+            );
+        media.play();
+    }
+    var url = "/android_asset/www/src/SaunavihtaSound_1.wav";
+    playAudio(url);
+    */
 })
 
-.controller('ChatDetailCtrl', function($scope, $stateParams, Chats) {
-  $scope.chat = Chats.get($stateParams.chatId);
+.controller('LoylyCtrl', function($scope) {
+    /*
+    $cordovaVibration.vibrate(2000);
+    */
+    /*
+    function playAudio(url) {
+        var media = new Media(url, function () {
+            console.log("playAudio():Audio Success");
+        },
+            function (err) {
+                console.log("playAudio():Audio Error: " + err);
+            }
+            );
+        media.play();
+    }
+    var url = "/android_asset/www/src/LoylySound_1.wav";
+    playAudio(url);
+    */
 })
 
-.controller('AccountCtrl', function($scope) {
-  $scope.settings = {
-    enableFriends: true
-  };
+.controller('VirvokeCtrl', function($scope) {
+    //$cordovaVibration.vibrate(2000);
+    /*
+    function playAudio(url) {
+        var media = new Media(url, function () {
+            console.log("playAudio():Audio Success");
+        },
+            function (err) {
+                console.log("playAudio():Audio Error: " + err);
+            }
+            );
+        media.play();
+    }
+    var url = "/android_asset/www/src/VirvokeSound_1.wav";
+    playAudio(url);    
+    */
 });
-*/
