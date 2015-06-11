@@ -1,3 +1,3 @@
 # saunavihta-ionic
 
-Saunavihta Ionic hybrid mobile app. 
+Saunavihta hybrid mobile app based on Ionic framework. 
