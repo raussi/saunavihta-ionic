@@ -1,0 +1,7 @@
+.git/
+hooks/
+nbproject/
+node_modules/
+platforms/
+plugins/
+setup.txt
